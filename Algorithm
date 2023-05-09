@@ -1,0 +1,28 @@
+fibonacci series-- 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, . . . 
+
+
+main()===
+1..declare three variables in which first two with initialise with value 0 and 1..//febonaaci series first two numbers
+2..f1=0;f2=1;
+3...  f3=f1+ff2;
+4...   Fn=F(n-1)+f(n-2);
+
+example if n=5
+   5=f(4)+f(3)
+   4=f(3)+f(2)
+
+using recursion
+
+=============================================================================================
+
+using system;
+namespace Febonacci_using_Recursion{
+ class Febonacci
+ {
+  int f1,f2,f3,n;
+  console.writeLine("enter the number to which you want to print febonacci ");
+  n=convert.Int32(console.ReadLine());
+  f1=0;
+  f2=1;
+  void febo_method(int num){
+  
